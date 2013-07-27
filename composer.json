@@ -1,17 +1,17 @@
 {
-    "name": "Replicant/FlextrineComposer",
-    "description": "Flextrine Composer library",
+	"name": "Replicant/FlextrineComposer",
+	"description": "Flextrine Composer library",
 	"repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.zendframework.com/"
-        }
-    ],
+		{
+		"type": "composer",
+		"url": "https://packages.zendframework.com/"
+		}
+	],
 	"require": {
-		"zendframework/zend-authentication": "2.0.*",
-		"zendframework/zend-permissions-acl": "2.0.*"
+		"zendframework/zend-authentication": "2.2.*",
+		"zendframework/zend-permissions-acl": "2.2.*"
 	},
-    "autoload": {
-        "files": ["Flextrine/ClassLoader.php"]
-    }
+	"autoload": {
+		"files": ["Flextrine/ClassLoader.php"]
+	}
 }
