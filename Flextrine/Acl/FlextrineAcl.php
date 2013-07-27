@@ -23,9 +23,9 @@
 
 namespace Flextrine\Acl;
 
-use Zend_Acl;
+use Zend\Permissions\Acl\Acl;
 
-abstract class FlextrineAcl extends \Zend_Acl {
+abstract class FlextrineAcl extends \Zend\Permissions\Acl\Acl {
 	
 	const PRIVILEGE_PERSIST = "privilege_persist";
 	const PRIVILEGE_LOAD = "privilege_load";
