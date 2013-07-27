@@ -1,0 +1,7 @@
+{
+    "name": "Replicant/FlextrineComposer",
+    "description": "Flextrine Composer library",
+    "autoload": {
+        "files": ["Flextrine/ClassLoader.php"]
+    }
+}
